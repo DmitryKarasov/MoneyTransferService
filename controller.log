@@ -1,0 +1,4 @@
+2024-09-17 17:44:07 - card from: 1234123412341234, card to: 1234123142341234, amount: 10, commission: 0,10, Success confirmation.
+2024-09-17 17:44:14 - card from: 1234123412341234, card to: 1234123142341234, amount: 100, commission: 1,00, Success confirmation.
+2024-09-17 17:44:19 - card from: 1234123412341234, card to: 1234123142341234, amount: 1000, commission: 10,00, Success confirmation.
+2024-09-17 17:44:22 - card from: 1234123412341234, card to: 1234123142341234, amount: -1000, commission: -10,00, Error customer message.

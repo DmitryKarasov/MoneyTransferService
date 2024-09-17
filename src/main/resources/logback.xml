@@ -1,0 +1,29 @@
+<configuration>
+    <!-- Аппендер для логирования в отдельный файл контроллера -->
+    <appender name="CONTROLLER_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>controller.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Аппендер для основного файла логов -->
+    <appender name="APPLICATION_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>application.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Логгер для контроллеров -->
+    <logger name="com.karasov.transfer.controllers" level="INFO" additivity="false">
+        <appender-ref ref="CONTROLLER_FILE" />
+    </logger>
+
+    <!-- Настройка корневого логгера -->
+    <root level="INFO">
+        <appender-ref ref="APPLICATION_FILE" />
+    </root>
+</configuration>
