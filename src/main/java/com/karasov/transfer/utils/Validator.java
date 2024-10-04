@@ -57,8 +57,8 @@ public class Validator {
      * @param value int переводимая сумма.
      * @return true, если условие проверки соблюдается, иначе false.
      */
-    public static boolean validatePaymentValue(int value) {
-        return value > 0;
+    public static boolean validatePaymentValue(double value) {
+        return value > 0.0;
     }
 
     /**
