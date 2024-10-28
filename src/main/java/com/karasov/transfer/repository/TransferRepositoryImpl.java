@@ -5,18 +5,19 @@ import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Реализация интерфейса {@link TransferRepository}, предоставляющая методы для работы с запросами на перевод.
  * <p>
  * Данный класс хранит запросы на перевод в памяти с использованием
- * коллекции {@link HashMap}. Он позволяет добавлять новые запросы и
+ * коллекции {@link ConcurrentHashMap}. Он позволяет добавлять новые запросы и
  * получать существующие по идентификатору.
  */
 @Repository
 public class TransferRepositoryImpl implements TransferRepository {
 
-    private final Map<String, Request> requests = new HashMap<>();
+    private final Map<String, Request> requests = new ConcurrentHashMap<>();
 
     /**
      * Добавляет новый запрос на перевод в репозиторий.
