@@ -5,6 +5,12 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Set;
 
+/**
+ * Реализация интерфейса {@link CardRepository}, предоставляющая методы для работы с картами.
+ * <p>
+ * Данный класс содержит фиксированный набор карт, и предоставляет возможность
+ * получения карты по номеру карты.
+ */
 @Repository
 public class CardRepositoryImpl implements CardRepository {
 
@@ -33,6 +39,12 @@ public class CardRepositoryImpl implements CardRepository {
         );
     }
 
+    /**
+     * Получает карту по номеру карты.
+     *
+     * @param number номер карты для поиска
+     * @return {@link Card} объект, если карта найдена; {@code null}, если карта с указанным номером не найдена
+     */
     public Card getCardByNumber(String number) {
         for (Card card : cards) {
             if (card.getCardNumber().equals(number)) {

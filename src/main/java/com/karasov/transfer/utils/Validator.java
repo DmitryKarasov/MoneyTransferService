@@ -31,7 +31,7 @@ public class Validator {
      * @return true, если условие проверки соблюдается, иначе false.
      */
     public static boolean validateExpireDate(String validTill) {
-        if (!validTill.matches("^(0[1-9]|1[0-2])[0-9]{2}$")) {
+        if (!validTill.matches("^(0[1-9]|1[0-2])\\d{2}$")) {
             return false;
         }
         int month = Integer.parseInt(validTill.substring(0, 2));
@@ -69,6 +69,6 @@ public class Validator {
      * @return true, если условие проверки соблюдается, иначе false.
      */
     public static boolean validatePaymentCurrency(String currency) {
-        return currency.equals("RUB");
+        return currency.equals("RUR");
     }
 }

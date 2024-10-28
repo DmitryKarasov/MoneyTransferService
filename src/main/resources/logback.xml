@@ -1,4 +1,11 @@
 <configuration>
+    <!-- Аппендер для логирования в консоль -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
     <!-- Аппендер для логирования в отдельный файл контроллера -->
     <appender name="CONTROLLER_FILE" class="ch.qos.logback.core.FileAppender">
         <file>controller.log</file>
@@ -25,5 +32,6 @@
     <!-- Настройка корневого логгера -->
     <root level="INFO">
         <appender-ref ref="APPLICATION_FILE" />
+        <appender-ref ref="CONSOLE" /> <!-- Добавляем вывод в консоль -->
     </root>
 </configuration>

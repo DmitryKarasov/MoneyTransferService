@@ -1,13 +1,17 @@
 package com.karasov.transfer.dto;
 
-public record FormDataDto(
+public record RequestDto(
         String cardFromNumber,
         String cardFromValidTill,
         String cardFromCVV,
         String cardToNumber,
-        double paymentValue,
-        String paymentCurrency
+        PaymentDto amount
 ) {
+    public record PaymentDto(
+            String currency,
+            double value
+    ) {
+    }
 }
 
 

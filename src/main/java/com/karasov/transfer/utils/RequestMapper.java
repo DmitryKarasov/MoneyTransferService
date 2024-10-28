@@ -1,32 +1,33 @@
 package com.karasov.transfer.utils;
 
-import com.karasov.transfer.dto.FormDataDto;
+import com.karasov.transfer.dto.RequestDto;
 import com.karasov.transfer.models.Card;
 import com.karasov.transfer.models.Request;
 
 /**
- * Класс маппер для преобразований {@link FormDataDto} в {@link Request}
+ * Класс маппер для преобразований {@link RequestDto} в {@link Request}.
+ * Предоставляет методы для преобразования объектов запроса в объекты перевода.
  */
 public class RequestMapper {
 
     /**
-     * преобразует пришедший запрос в карту, с которой совершается перевод
+     * Преобразует пришедший запрос в объект {@link Request}, который содержит информацию о переводе.
      *
-     * @param formDataDto объект запроса.
-     * @return {@link Card} карта, с которой совершается перевод
+     * @param requestDto объект запроса, содержащий данные для перевода.
+     * @return {@link Request} объект, содержащий информацию о переводе, включая
+     *         карту, с которой совершается перевод, номер карты получателя,
+     *         сумму перевода и валюту.
      */
-    public static Request requestDtoToRequest(FormDataDto formDataDto) {
+    public static Request requestDtoToRequest(RequestDto requestDto) {
         return new Request(
                 new Card(
-                        formDataDto.cardFromNumber(),
-                        formDataDto.cardFromValidTill(),
-                        formDataDto.cardFromCVV()
+                        requestDto.cardFromNumber(),
+                        requestDto.cardFromValidTill().replaceAll("[^\\d]", ""),
+                        requestDto.cardFromCVV()
                 ),
-                formDataDto.cardToNumber(),
-                formDataDto.paymentValue(),
-                formDataDto.paymentCurrency()
+                requestDto.cardToNumber(),
+                requestDto.amount().value() / 100,
+                requestDto.amount().currency()
         );
     }
-
-
 }

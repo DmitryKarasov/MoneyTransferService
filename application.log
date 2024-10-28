@@ -80,7 +80,7 @@ java.lang.NullPointerException: Cannot invoke "String.matches(String)" because "
 2024-09-17 15:12:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-09-17 15:12:21 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2024-09-17 15:12:21 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-2024-09-17 15:12:21 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> com.karasov.transfer.controllers.TransferController.transferMoney(com.karasov.transfer.dto.FormDataDto)]
+2024-09-17 15:12:21 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> com.karasov.transfer.controllers.TransferController.transferMoney(com.karasov.transfer.dto.RequestDto)]
 2024-09-17 15:14:34 INFO  c.k.t.controllers.TransferController - 2024-09-17T15:14:34.119553500 Test log
 2024-09-17 15:40:52 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 22.0.1 with PID 16328 (D:\Java\IdeaProjects\Netology\TransferMoney\transfer\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\transfer)
 2024-09-17 15:40:52 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
@@ -850,3 +850,1215 @@ java.lang.NullPointerException: Cannot invoke "String.matches(String)" because "
 2024-10-04 15:29:54 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-10-04 15:29:54 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2024-10-04 15:29:54 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 17:56:38 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 11280 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 17:56:38 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 17:56:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 17:56:39 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 17:56:39 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 17:56:39 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 17:56:39 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 17:56:39 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 832 ms
+2024-10-27 17:56:39 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 17:56:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 17:56:39 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.539 seconds (process running for 2.35)
+2024-10-27 17:56:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 17:56:48 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 17:56:48 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 17:57:43 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 2252 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 17:57:43 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 17:57:45 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 17:57:45 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 17:57:45 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 17:57:45 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 17:57:45 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 17:57:45 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1334 ms
+2024-10-27 17:57:45 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 17:57:45 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 17:57:45 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 2.303 seconds (process running for 2.941)
+2024-10-27 17:57:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 17:57:48 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 17:57:48 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 17:58:16 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 14348 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 17:58:16 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 17:58:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 17:58:17 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 17:58:17 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 17:58:17 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 17:58:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 17:58:17 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 784 ms
+2024-10-27 17:58:17 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 17:58:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 17:58:17 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.494 seconds (process running for 2.103)
+2024-10-27 17:58:18 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 17:58:18 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 17:58:18 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 17:58:36 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 7804 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 17:58:36 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 17:58:37 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 17:58:37 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 17:58:37 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 17:58:37 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 17:58:37 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 17:58:37 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 769 ms
+2024-10-27 17:58:37 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 17:58:37 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 17:58:37 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.401 seconds (process running for 2.02)
+2024-10-27 17:58:38 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 17:58:38 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 17:58:38 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 18:00:16 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 7228 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 18:00:16 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 18:00:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 18:00:17 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:00:17 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 18:00:17 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 18:00:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 18:00:17 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 772 ms
+2024-10-27 18:00:17 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:00:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 18:00:17 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.406 seconds (process running for 2.017)
+2024-10-27 18:00:19 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 18:00:19 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 18:00:19 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 18:01:21 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 7712 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 18:01:21 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 18:01:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 18:01:22 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:01:22 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 18:01:22 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 18:01:22 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 18:01:22 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 693 ms
+2024-10-27 18:01:22 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:01:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 18:01:22 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.338 seconds (process running for 1.963)
+2024-10-27 18:01:25 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 18:01:25 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 18:01:25 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 18:02:04 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 17948 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 18:02:04 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 18:02:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 18:02:05 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:02:05 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 18:02:05 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 18:02:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 18:02:05 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 708 ms
+2024-10-27 18:02:05 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:02:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 18:02:05 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.396 seconds (process running for 1.951)
+2024-10-27 18:02:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 18:02:07 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 18:02:07 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 18:03:20 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 17984 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 18:03:20 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 18:03:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 18:03:21 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:03:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 18:03:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 18:03:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 18:03:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 753 ms
+2024-10-27 18:03:21 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:03:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 18:03:21 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.387 seconds (process running for 1.942)
+2024-10-27 18:03:22 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 18:03:22 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 18:03:22 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-27 18:08:21 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 18088 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 18:08:21 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 18:08:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 18:08:22 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:08:22 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 18:08:22 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 18:08:22 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 18:08:22 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 763 ms
+2024-10-27 18:08:22 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:08:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 18:08:22 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.417 seconds (process running for 2.026)
+2024-10-27 18:08:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 18:08:27 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 18:08:27 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-27 18:08:27 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.karasov.transfer.dto.PaymentDto.paymentValue()" because the return value of "amount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.karasov.transfer.dto.PaymentDto.paymentValue()" because the return value of "amount()" is null
+	at com.karasov.transfer.utils.RequestMapper.requestDtoToRequest(RequestMapper.java:26)
+	at com.karasov.transfer.service.TransferService.transfer(TransferService.java:57)
+	at com.karasov.transfer.controllers.TransferController.transfer(TransferController.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-27 18:11:40 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 9328 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 18:11:40 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 18:11:40 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 18:11:40 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:11:40 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 18:11:40 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 18:11:40 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 18:11:40 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 710 ms
+2024-10-27 18:11:41 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 18:11:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 18:11:41 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.35 seconds (process running for 1.968)
+2024-10-27 18:11:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 18:11:48 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 18:11:48 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-27 19:21:10 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 14592 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 19:21:10 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 19:21:11 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 19:21:11 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:21:11 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 19:21:11 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 19:21:11 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 19:21:11 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1029 ms
+2024-10-27 19:21:12 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:21:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 19:21:12 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.885 seconds (process running for 2.694)
+2024-10-27 19:21:51 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 19:21:51 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 19:21:51 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-27 19:28:41 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 4652 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 19:28:41 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 19:28:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 19:28:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:28:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 19:28:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 19:28:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 19:28:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 601 ms
+2024-10-27 19:28:42 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:28:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 19:28:42 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.127 seconds (process running for 1.653)
+2024-10-27 19:29:07 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 9924 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 19:29:07 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 19:29:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 19:29:08 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:29:08 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 19:29:08 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 19:29:08 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 19:29:08 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 699 ms
+2024-10-27 19:29:08 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:29:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 19:29:08 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.327 seconds (process running for 1.953)
+2024-10-27 19:33:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 19:33:05 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 19:33:05 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-27 19:33:05 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.karasov.transfer.dto.RequestDto$PaymentDto.paymentValue()" because the return value of "amount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.karasov.transfer.dto.RequestDto$PaymentDto.paymentValue()" because the return value of "amount()" is null
+	at com.karasov.transfer.utils.RequestMapper.requestDtoToRequest(RequestMapper.java:26)
+	at com.karasov.transfer.service.TransferService.transfer(TransferService.java:57)
+	at com.karasov.transfer.controllers.TransferController.transfer(TransferController.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-27 19:38:10 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 13640 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 19:38:10 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 19:38:11 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 19:38:11 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:38:11 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 19:38:11 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 19:38:11 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 19:38:11 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 602 ms
+2024-10-27 19:38:11 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:38:11 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 19:38:11 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.154 seconds (process running for 1.677)
+2024-10-27 19:38:36 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 19:38:36 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 19:38:36 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-27 19:39:17 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 3128 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 19:39:17 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 19:39:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 19:39:17 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:39:17 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 19:39:17 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 19:39:18 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 19:39:18 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 735 ms
+2024-10-27 19:39:18 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:39:18 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 19:39:18 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.395 seconds (process running for 2.013)
+2024-10-27 19:39:24 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 19:39:24 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 19:39:24 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 19:40:00 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 17988 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 19:40:00 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 19:40:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 19:40:00 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:40:00 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 19:40:00 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 19:40:00 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 19:40:00 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 719 ms
+2024-10-27 19:40:01 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:40:01 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 19:40:01 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.371 seconds (process running for 1.999)
+2024-10-27 19:40:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 19:40:05 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 19:40:05 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-27 19:42:54 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 1228 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 19:42:54 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 19:42:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 19:42:54 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:42:54 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 19:42:54 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 19:42:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 19:42:55 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 672 ms
+2024-10-27 19:42:55 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:42:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 19:42:55 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.257 seconds (process running for 1.78)
+2024-10-27 19:42:58 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 19:42:58 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 19:42:58 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-10-27 19:47:38 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 4608 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 19:47:38 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 19:47:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 19:47:39 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:47:39 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 19:47:39 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 19:47:39 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 19:47:39 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 457 ms
+2024-10-27 19:47:39 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:47:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 19:47:39 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 0.865 seconds (process running for 1.264)
+2024-10-27 19:47:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 19:47:41 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 19:47:41 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-27 19:59:55 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 13452 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 19:59:55 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 19:59:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 19:59:55 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:59:55 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 19:59:55 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 19:59:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 19:59:55 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 437 ms
+2024-10-27 19:59:56 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 19:59:56 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 19:59:56 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 0.866 seconds (process running for 1.266)
+2024-10-27 19:59:58 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 19:59:58 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 19:59:58 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 20:17:02 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 408 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 20:17:02 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 20:17:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 20:17:02 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:17:02 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 20:17:02 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 20:17:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 20:17:02 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 445 ms
+2024-10-27 20:17:02 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:17:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 20:17:02 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 0.837 seconds (process running for 1.224)
+2024-10-27 20:17:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 20:17:07 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 20:17:07 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-27 20:19:06 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 16616 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 20:19:06 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 20:19:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 20:19:06 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:19:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 20:19:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 20:19:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 20:19:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 444 ms
+2024-10-27 20:19:06 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:19:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 20:19:06 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 0.854 seconds (process running for 1.226)
+2024-10-27 20:19:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 20:19:15 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 20:19:15 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-27 20:20:06 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 8000 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 20:20:06 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 20:20:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 20:20:06 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:20:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 20:20:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 20:20:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 20:20:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 444 ms
+2024-10-27 20:20:06 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:20:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 20:20:07 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 0.846 seconds (process running for 1.235)
+2024-10-27 20:20:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 20:20:10 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 20:20:10 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 20:21:12 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 3476 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 20:21:12 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 20:21:13 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 20:21:13 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:21:13 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 20:21:13 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 20:21:13 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 20:21:13 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 450 ms
+2024-10-27 20:21:13 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:21:13 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 20:21:13 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 0.853 seconds (process running for 1.234)
+2024-10-27 20:21:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 20:21:14 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 20:21:14 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2024-10-27 20:21:52 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 2804 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 20:21:52 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 20:21:53 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 20:21:53 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:21:53 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 20:21:53 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 20:21:53 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 20:21:53 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 442 ms
+2024-10-27 20:21:53 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:21:53 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 20:21:53 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 0.853 seconds (process running for 1.229)
+2024-10-27 20:21:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 20:21:55 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 20:21:55 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-27 20:25:31 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 15884 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-27 20:25:31 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-27 20:25:31 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-27 20:25:31 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:25:31 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-27 20:25:31 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-27 20:25:31 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-27 20:25:31 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 442 ms
+2024-10-27 20:25:31 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-27 20:25:31 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-27 20:25:31 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 0.848 seconds (process running for 1.253)
+2024-10-27 20:25:47 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27 20:25:47 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-27 20:25:47 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 09:36:37 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 3824 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 09:36:37 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 09:36:38 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 09:36:38 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:36:38 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 09:36:38 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 09:36:38 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 09:36:38 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1212 ms
+2024-10-28 09:36:38 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'transferController' method 
+com.karasov.transfer.controllers.TransferController#confirm(ConfirmOperationDTO)
+to {POST [/confirmOperation]}: There is already 'transferController' bean method
+com.karasov.transfer.controllers.TransferController#transfer(HttpServletRequest) mapped.
+2024-10-28 09:36:38 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-10-28 09:36:38 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-28 09:36:38 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'transferController' method 
+com.karasov.transfer.controllers.TransferController#confirm(ConfirmOperationDTO)
+to {POST [/confirmOperation]}: There is already 'transferController' bean method
+com.karasov.transfer.controllers.TransferController#transfer(HttpServletRequest) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.karasov.transfer.TransferApplication.main(TransferApplication.java:10)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'transferController' method 
+com.karasov.transfer.controllers.TransferController#confirm(ConfirmOperationDTO)
+to {POST [/confirmOperation]}: There is already 'transferController' bean method
+com.karasov.transfer.controllers.TransferController#transfer(HttpServletRequest) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:987)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 16 common frames omitted
+2024-10-28 09:36:52 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 4176 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 09:36:52 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 09:36:53 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 09:36:53 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:36:53 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 09:36:53 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 09:36:53 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 09:36:53 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 967 ms
+2024-10-28 09:36:54 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:36:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 09:36:54 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.91 seconds (process running for 2.494)
+2024-10-28 09:37:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 09:37:02 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 09:37:02 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 09:38:22 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 10288 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 09:38:22 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 09:38:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 09:38:23 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:38:23 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 09:38:23 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 09:38:23 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 09:38:23 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 770 ms
+2024-10-28 09:38:23 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:38:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 09:38:23 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.454 seconds (process running for 2.056)
+2024-10-28 09:38:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 09:38:41 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 09:38:41 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 09:39:50 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 6484 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 09:39:50 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 09:39:51 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 09:39:51 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:39:51 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 09:39:51 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 09:39:51 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 09:39:51 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 706 ms
+2024-10-28 09:39:51 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:39:51 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 09:39:51 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.311 seconds (process running for 1.925)
+2024-10-28 09:39:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 09:39:52 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 09:39:52 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 09:50:41 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 14280 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 09:50:41 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 09:50:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 09:50:42 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:50:42 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 09:50:42 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 09:50:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 09:50:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1171 ms
+2024-10-28 09:50:42 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:50:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 09:50:42 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 2.127 seconds (process running for 2.771)
+2024-10-28 09:50:43 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 09:50:43 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 09:50:43 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2024-10-28 09:56:08 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 12160 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 09:56:08 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 09:56:09 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 09:56:09 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:56:09 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 09:56:09 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 09:56:09 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 09:56:09 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 796 ms
+2024-10-28 09:56:10 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:56:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 09:56:10 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.563 seconds (process running for 2.22)
+2024-10-28 09:56:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 09:56:16 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 09:56:16 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 09:58:28 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 15620 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 09:58:28 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 09:58:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 09:58:29 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:58:29 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 09:58:29 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 09:58:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 09:58:29 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 743 ms
+2024-10-28 09:58:29 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 09:58:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 09:58:29 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.448 seconds (process running for 2.079)
+2024-10-28 09:58:32 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 09:58:32 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 09:58:32 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 09:58:33 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NumberFormatException: For input string: "/3"] with root cause
+java.lang.NumberFormatException: For input string: "/3"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:588)
+	at java.base/java.lang.Integer.parseInt(Integer.java:685)
+	at com.karasov.transfer.utils.Validator.validateExpireDate(Validator.java:40)
+	at com.karasov.transfer.service.TransferService.transfer(TransferService.java:66)
+	at com.karasov.transfer.controllers.TransferController.transfer(TransferController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-28 09:59:04 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NumberFormatException: For input string: "/3"] with root cause
+java.lang.NumberFormatException: For input string: "/3"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:588)
+	at java.base/java.lang.Integer.parseInt(Integer.java:685)
+	at com.karasov.transfer.utils.Validator.validateExpireDate(Validator.java:40)
+	at com.karasov.transfer.service.TransferService.transfer(TransferService.java:66)
+	at com.karasov.transfer.controllers.TransferController.transfer(TransferController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-28 10:04:04 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 7076 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:04:04 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:04:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:04:04 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:04:04 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:04:04 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:04:04 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:04:04 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 770 ms
+2024-10-28 10:04:05 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:04:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:04:05 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.426 seconds (process running for 2.079)
+2024-10-28 10:04:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:04:14 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:04:14 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 10:04:14 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NumberFormatException: For input string: "/3"] with root cause
+java.lang.NumberFormatException: For input string: "/3"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:588)
+	at java.base/java.lang.Integer.parseInt(Integer.java:685)
+	at com.karasov.transfer.utils.Validator.validateExpireDate(Validator.java:40)
+	at com.karasov.transfer.service.TransferService.transfer(TransferService.java:66)
+	at com.karasov.transfer.controllers.TransferController.transfer(TransferController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-28 10:06:48 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 11632 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:06:48 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:06:49 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:06:49 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:06:49 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:06:49 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:06:49 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:06:49 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 822 ms
+2024-10-28 10:06:49 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:06:49 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:06:49 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.439 seconds (process running for 1.966)
+2024-10-28 10:06:53 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:06:53 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:06:53 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 10:10:47 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 13360 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:10:47 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:10:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:10:48 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:10:48 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:10:48 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:10:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:10:48 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 631 ms
+2024-10-28 10:10:48 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:10:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:10:48 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.256 seconds (process running for 1.865)
+2024-10-28 10:10:53 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:10:53 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:10:53 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 10:13:32 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 14588 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:13:32 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:13:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:13:33 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:13:33 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:13:33 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:13:33 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:13:33 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 608 ms
+2024-10-28 10:13:33 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:13:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:13:33 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.216 seconds (process running for 1.86)
+2024-10-28 10:13:37 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:13:37 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:13:37 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2024-10-28 10:15:20 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 460 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:15:20 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:15:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:15:20 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:15:20 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:15:20 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:15:20 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:15:20 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 782 ms
+2024-10-28 10:15:21 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:15:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:15:21 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.437 seconds (process running for 2.025)
+2024-10-28 10:15:25 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:15:25 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:15:25 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 10:18:23 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 17292 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:18:23 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:18:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:18:24 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:18:24 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:18:24 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:18:24 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:18:24 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 890 ms
+2024-10-28 10:18:24 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:18:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:18:24 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.629 seconds (process running for 2.235)
+2024-10-28 10:18:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:18:27 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:18:27 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 10:29:30 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 7116 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:29:30 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:29:31 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:29:31 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:29:31 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:29:31 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:29:31 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:29:31 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 615 ms
+2024-10-28 10:29:31 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:29:31 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:29:31 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.221 seconds (process running for 1.957)
+2024-10-28 10:29:35 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:29:35 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:29:35 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 10:42:07 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 17624 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:42:07 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:42:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:42:08 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:42:08 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:42:08 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:42:08 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:42:08 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 846 ms
+2024-10-28 10:42:09 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:42:09 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:42:09 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.556 seconds (process running for 2.179)
+2024-10-28 10:42:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:42:15 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:42:15 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 10:43:23 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 15840 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:43:23 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:43:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:43:24 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:43:24 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:43:24 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:43:24 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:43:24 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 650 ms
+2024-10-28 10:43:24 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:43:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:43:24 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.236 seconds (process running for 1.867)
+2024-10-28 10:43:28 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:43:28 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:43:28 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 10:49:30 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 6944 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:49:30 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:49:31 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:49:31 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:49:31 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:49:31 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:49:31 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:49:31 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 785 ms
+2024-10-28 10:49:31 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:49:31 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:49:31 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.445 seconds (process running for 2.074)
+2024-10-28 10:49:35 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:49:35 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:49:35 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 10:52:55 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 5352 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:52:55 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:52:56 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:52:56 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:52:56 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:52:56 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:52:56 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:52:56 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 580 ms
+2024-10-28 10:52:56 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:52:56 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:52:56 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.176 seconds (process running for 1.886)
+2024-10-28 10:53:00 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:53:00 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:53:00 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 10:57:45 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 12192 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:57:45 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:57:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:57:46 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:57:46 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:57:46 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:57:46 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:57:46 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 800 ms
+2024-10-28 10:57:46 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:57:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:57:46 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.473 seconds (process running for 2.098)
+2024-10-28 10:57:49 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:57:49 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:57:49 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2024-10-28 10:59:02 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 9280 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 10:59:02 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:59:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 10:59:03 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:59:03 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 10:59:03 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 10:59:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:59:03 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 728 ms
+2024-10-28 10:59:04 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 10:59:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 10:59:04 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.421 seconds (process running for 2.015)
+2024-10-28 10:59:11 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:59:11 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:59:11 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 11:01:35 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 1852 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 11:01:35 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 11:01:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 11:01:36 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:01:36 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 11:01:36 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 11:01:36 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 11:01:36 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 763 ms
+2024-10-28 11:01:36 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:01:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 11:01:36 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.468 seconds (process running for 2.025)
+2024-10-28 11:01:59 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 11:01:59 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 11:01:59 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 11:02:09 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 13696 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 11:02:09 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 11:02:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 11:02:10 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:02:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 11:02:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 11:02:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 11:02:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 744 ms
+2024-10-28 11:02:10 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:02:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 11:02:10 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.413 seconds (process running for 2.015)
+2024-10-28 11:02:13 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 11:02:13 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 11:02:13 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2024-10-28 11:02:56 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 16560 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 11:02:56 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 11:02:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 11:02:57 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:02:57 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 11:02:57 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 11:02:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 11:02:57 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 747 ms
+2024-10-28 11:02:57 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:02:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 11:02:57 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.395 seconds (process running for 1.93)
+2024-10-28 11:03:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 11:03:12 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 11:03:12 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 11:05:36 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 10788 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 11:05:36 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 11:05:37 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 11:05:37 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:05:37 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 11:05:37 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 11:05:37 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 11:05:37 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 882 ms
+2024-10-28 11:05:37 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:05:37 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 11:05:37 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.568 seconds (process running for 2.168)
+2024-10-28 11:05:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 11:05:48 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 11:05:48 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 11:11:44 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 9928 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 11:11:44 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 11:11:45 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 11:11:45 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:11:45 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 11:11:45 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 11:11:45 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 11:11:45 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 816 ms
+2024-10-28 11:11:45 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:11:45 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 11:11:45 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.502 seconds (process running for 2.13)
+2024-10-28 11:11:59 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 11:11:59 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 11:11:59 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 11:14:07 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 1408 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 11:14:07 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 11:14:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 11:14:08 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:14:08 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 11:14:08 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 11:14:08 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 11:14:08 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 736 ms
+2024-10-28 11:14:08 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:14:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 11:14:08 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.414 seconds (process running for 2.05)
+2024-10-28 11:14:18 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 11:14:18 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 11:14:18 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-10-28 11:19:38 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 8680 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 11:19:38 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 11:19:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 11:19:39 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:19:39 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 11:19:39 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 11:19:39 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 11:19:39 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 727 ms
+2024-10-28 11:19:39 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:19:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 11:19:39 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.379 seconds (process running for 2.002)
+2024-10-28 11:19:50 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 11:19:50 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 11:19:50 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-10-28 11:20:36 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-10-28 11:26:26 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 3416 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 11:26:26 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 11:26:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 11:26:27 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:26:27 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 11:26:27 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 11:26:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 11:26:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 737 ms
+2024-10-28 11:26:27 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:26:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 11:26:28 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.385 seconds (process running for 1.981)
+2024-10-28 11:26:43 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 11:26:43 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 11:26:43 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 11:27:56 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 8388 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 11:27:56 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 11:27:56 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 11:27:56 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:27:56 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 11:27:56 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 11:27:56 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 11:27:56 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 718 ms
+2024-10-28 11:27:57 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:27:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 11:27:57 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.406 seconds (process running for 2.033)
+2024-10-28 11:28:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 11:28:10 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 11:28:10 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 11:44:47 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 8996 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 11:44:47 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 11:44:47 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 11:44:47 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:44:47 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 11:44:47 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 11:44:47 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 11:44:47 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 826 ms
+2024-10-28 11:44:48 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 11:44:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 11:44:48 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.496 seconds (process running for 2.112)
+2024-10-28 11:45:01 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 11:45:01 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 11:45:01 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 12:04:40 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 17412 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 12:04:40 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 12:04:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 12:04:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:04:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 12:04:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 12:04:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 12:04:41 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+2024-10-28 12:04:41 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:04:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 12:04:41 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.462 seconds (process running for 2.11)
+2024-10-28 12:04:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 12:04:52 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 12:04:52 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 12:06:14 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 12744 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 12:06:14 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 12:06:15 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 12:06:15 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:06:15 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 12:06:15 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 12:06:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 12:06:15 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 739 ms
+2024-10-28 12:06:15 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:06:15 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 12:06:15 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.458 seconds (process running for 2.066)
+2024-10-28 12:06:31 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 12:06:31 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 12:06:31 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 12:07:53 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 2692 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 12:07:53 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 12:07:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 12:07:54 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:07:54 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 12:07:54 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 12:07:54 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 12:07:54 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 816 ms
+2024-10-28 12:07:54 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:07:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 12:07:54 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.563 seconds (process running for 2.181)
+2024-10-28 12:07:58 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 12:07:58 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 12:07:58 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 12:08:44 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 13580 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 12:08:44 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 12:08:45 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 12:08:45 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:08:45 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 12:08:45 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 12:08:45 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 12:08:45 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 765 ms
+2024-10-28 12:08:46 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:08:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 12:08:46 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.426 seconds (process running for 1.999)
+2024-10-28 12:08:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 12:08:55 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 12:08:55 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 12:08:59 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-10-28 12:09:57 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 10528 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 12:09:57 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 12:09:58 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 12:09:58 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:09:58 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 12:09:58 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 12:09:58 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 12:09:58 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 807 ms
+2024-10-28 12:09:58 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:09:58 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 12:09:59 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.521 seconds (process running for 2.124)
+2024-10-28 12:10:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 12:10:07 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 12:10:07 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 12:11:12 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 18076 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 12:11:12 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 12:11:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 12:11:12 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:11:12 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 12:11:12 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 12:11:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 12:11:12 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 730 ms
+2024-10-28 12:11:13 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:11:13 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 12:11:13 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.418 seconds (process running for 2.02)
+2024-10-28 12:11:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 12:11:21 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 12:11:21 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 12:17:38 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 3896 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 12:17:38 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 12:17:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 12:17:39 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:17:39 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 12:17:39 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 12:17:39 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 12:17:39 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 910 ms
+2024-10-28 12:17:39 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:17:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 12:17:39 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.693 seconds (process running for 2.298)
+2024-10-28 12:17:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 12:17:48 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 12:17:48 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-28 12:33:29 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 5596 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 12:33:29 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 12:33:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 12:33:30 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:33:30 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 12:33:30 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 12:33:30 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 12:33:30 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 858 ms
+2024-10-28 12:33:30 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:33:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 12:33:30 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.566 seconds (process running for 2.162)
+2024-10-28 12:33:38 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 12:33:38 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 12:33:38 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-28 12:38:26 INFO  c.k.transfer.TransferApplication - Starting TransferApplication using Java 23 with PID 11676 (D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService\target\classes started by redmi in D:\Java\IdeaProjects\Netology\TransferMoney\MoneyTransferService)
+2024-10-28 12:38:26 INFO  c.k.transfer.TransferApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 12:38:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5500 (http)
+2024-10-28 12:38:27 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:38:27 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-28 12:38:27 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-28 12:38:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-28 12:38:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 749 ms
+2024-10-28 12:38:28 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-10-28 12:38:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5500 (http) with context path '/'
+2024-10-28 12:38:28 INFO  c.k.transfer.TransferApplication - Started TransferApplication in 1.393 seconds (process running for 2.003)
+2024-10-28 12:38:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 12:38:34 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-28 12:38:34 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms

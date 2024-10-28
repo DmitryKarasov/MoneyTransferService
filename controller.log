@@ -1,0 +1,78 @@
+2024-10-27 17:58:39 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 0,00.
+2024-10-27 18:00:19 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 0,00.
+2024-10-27 18:00:25 - Error input data for transfer with id: 2 card from: 2222222222222222, card to: 1111111111111111, amount: 0,00.
+2024-10-27 18:01:25 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 0,00.
+2024-10-27 18:02:07 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 0,00.
+2024-10-27 18:03:22 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 0,00.
+2024-10-27 18:11:48 - Request with id 0 not found.
+2024-10-27 19:21:51 - Request with id 0 not found.
+2024-10-27 19:38:36 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 0,00.
+2024-10-27 19:39:24 - Request with id 0 not found.
+2024-10-27 19:40:05 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 0,00.
+2024-10-27 19:42:58 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 10000,00.
+2024-10-27 19:47:41 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 10000,00.
+2024-10-27 19:59:58 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 10000,00.
+2024-10-27 20:17:07 - Request with id 0 not found.
+2024-10-27 20:18:10 - Request with id 0 not found.
+2024-10-27 20:19:15 - Request with id 0 not found.
+2024-10-27 20:20:10 - Request with id 0 not found.
+2024-10-27 20:21:14 - Request with id 0 not found.
+2024-10-27 20:25:47 - 0
+2024-10-28 09:38:42 - 0
+2024-10-28 09:39:52 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 10000,00.
+2024-10-28 09:50:43 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 10000,00.
+2024-10-28 09:56:16 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 10000,00.
+2024-10-28 10:06:53 - 0
+2024-10-28 10:10:53 - 0
+2024-10-28 10:11:05 - 0
+2024-10-28 10:13:37 - 0
+2024-10-28 10:15:25 - 0
+2024-10-28 10:18:28 - 0
+2024-10-28 10:29:35 - Invalid sender's card details for transfer with id: 1.
+2024-10-28 10:42:15 - Invalid sender's card details for transfer with id: 1.
+2024-10-28 10:43:28 - Invalid sender's card details for transfer with id: 1.
+2024-10-28 10:49:35 - Invalid sender's card details for transfer with id: 1.
+2024-10-28 10:53:00 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 10000,00.
+2024-10-28 10:57:50 - Invalid sender's card details for transfer with id: 1.
+2024-10-28 10:59:11 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 10000,00.
+2024-10-28 11:01:59 - Error input data for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 10000,00.
+2024-10-28 11:02:13 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 100,00, commission: 1,00
+2024-10-28 11:03:12 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 100,00, commission: 1,00
+2024-10-28 11:05:49 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 100,00, commission: 1,00
+2024-10-28 11:06:03 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 100,00, commission: 1,00
+2024-10-28 11:06:15 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 100,00, commission: 1,00
+2024-10-28 11:11:59 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 100,00, commission: 1,00
+2024-10-28 11:12:27 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 100,00, commission: 1,00
+2024-10-28 11:12:52 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 100,00, commission: 1,00
+2024-10-28 11:14:18 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 11:14:46 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 11:19:50 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 11:26:44 - Incoming JSON: ConfirmOperationDTO[id=0, code=0000]
+2024-10-28 11:26:44 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 11:28:10 - Incoming JSON: {"code":"0000"}
+2024-10-28 11:45:01 - Incoming JSON: {"code":"0000","operationId":"1"}
+2024-10-28 12:04:52 - Incoming JSON: {"code":"0000","operationId":"1"}
+2024-10-28 12:05:07 - Incoming JSON: {"code":"0000","operationId":"2"}
+2024-10-28 12:06:31 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 12:06:44 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 12:07:58 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 12:08:21 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 12:08:55 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 12:09:10 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 12:10:08 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 12:10:20 - Success confirmation for transfer with id: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 12:11:22 - Success confirmation for transfer with operationId: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 12:11:29 - Success confirmation for transfer with operationId: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 123,00, commission: 1,23
+2024-10-28 12:17:48 - Success confirmation for transfer with operationId: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 500,00, commission: 5,00
+2024-10-28 12:18:09 - Success confirmation for transfer with operationId: 2 card from: 2222222222222222, card to: 1111111111111111, amount: 600,00, commission: 6,00
+2024-10-28 12:18:23 - Not enough money for transfer with operationId: 3 card from: 2222222222222222, card to: 1111111111111111, amount: 1000,00, commission: 10,00
+2024-10-28 12:18:38 - Card not found for transfer with operationId: 4.
+2024-10-28 12:18:52 - Card not found for transfer with operationId: 5.
+2024-10-28 12:19:09 - Invalid sender's card details for transfer with operationId: 6.
+2024-10-28 12:33:38 - Invalid sender's card details for transfer with operationId: 1.
+2024-10-28 12:33:41 - Invalid sender's card details for transfer with operationId: 2.
+2024-10-28 12:33:46 - Success confirmation for transfer with operationId: 3 card from: 2222222222222222, card to: 1111111111111111, amount: 100,00, commission: 1,00
+2024-10-28 12:33:57 - Success confirmation for transfer with operationId: 4 card from: 2222222222222222, card to: 1111111111111111, amount: 1000,00, commission: 10,00
+2024-10-28 12:34:06 - Not enough money for transfer with operationId: 5 card from: 2222222222222222, card to: 1111111111111111, amount: 2000,00, commission: 20,00
+2024-10-28 12:38:34 - Not enough money for transfer with operationId: 1 card from: 2222222222222222, card to: 1111111111111111, amount: 2000,00, commission: 20,00
+2024-10-28 12:38:36 - Success confirmation for transfer with operationId: 2 card from: 2222222222222222, card to: 1111111111111111, amount: 1000,00, commission: 10,00
